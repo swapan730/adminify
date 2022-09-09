@@ -1,0 +1,102 @@
+/*****************************************************************************
+  Skin Name: Skin Sun Flower
+******************************************************************************/
+a.breadcrumb-item,
+.notification-header a,
+.notification-footer a,
+.messages-footer a,
+.messages-header a {
+	color: #f1c40f!important;
+}
+
+.header-right .notification-count,
+.header-right .messages-count {
+	background: #0c1015!important;
+}
+
+.wave.in:after {
+	background: -webkit-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #0c1015 100%)!important;
+	background: -moz-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #0c1015 100%)!important;
+	background: -o-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #0c1015 100%)!important;
+	border: 1px solid #0c1015!important;
+}
+
+.navbar-header a,
+.header-right ul li a i.ion-ios-bell-outline,
+.header-right ul li a i.ion-ios-email-outline,
+.header-right ul li a span.select-profile {
+	color: #0c1015!important;
+}
+
+.page-header .navbar-default,
+.page-sidebar,
+.sidebar-footer a.pull-left:hover {
+	background: #f1c40f!important;
+}
+
+.logo-box,
+.accordion-menu .sub-menu,
+.page-sidebar-menu ul li.menu-divider,
+.sidebar-footer {
+	background: #e4ba0f!important;
+}
+
+.page-sidebar-menu ul li a,
+.page-sidebar-menu ul li a i.accordion-icon,
+.sidebar-footer a.pull-left,
+.page-sidebar-menu ul li.menu-elements,
+.page-sidebar-menu ul li.menu-extras,
+.page-sidebar-menu ul li.menu-others {
+	color: #0c1015!important;
+}
+
+.page-sidebar-menu ul li.open,
+.page-sidebar-menu>ul>li>a:hover,
+.page-sidebar-menu ul li.active>a,
+.page-sidebar-collapsed .page-sidebar-menu>ul>li:hover>a {
+	background: #d6af0f!important;
+}
+
+.page-sidebar-menu ul li ul li.active>a,
+.page-sidebar-menu ul li.active>a i.fa-angle-right {
+	background: #e4ba0f!important;
+	color: #ffffff!important;
+}
+
+.page-sidebar-menu ul li .sub-menu a:hover,
+.sidebar-footer a.pull-left:hover {
+	color: #ffffff!important;
+}
+
+.sub-menu li a::before,
+ul.sub-menu li.active a::before {
+	background-color: #0c1015!important;
+}
+.sub-menu li a:hover::before,
+ul.sub-menu li.active a::before {
+	background-color: #ffffff!important;
+}
+
+
+.page-sidebar-menu ul li a i:first-child{
+    font-size: 12px;
+    padding: 10px;
+    background: #e4ba0f;
+    color: #0c1015;
+    border-radius: 2px;
+}
+
+.page-sidebar-collapsed .page-sidebar-menu>ul>li>a {
+    padding: 10px!important;
+}
+
+.page-sidebar-collapsed .page-sidebar-menu ul li a span{
+	margin-top: 8px!important;
+}
+
+.card .card-header,
+.color-switcher a.switcher-button,
+.btn-scroll-top {
+    background: #f1c40f!important;
+    color: #0c1015!important;
+}

@@ -1,0 +1,1447 @@
+ <!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta charset="utf-8">
+	  <meta http-equiv="x-ua-compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="description" content="">
+	  <meta name="keyword" content="">
+	  <meta name="author"  content=""/>
+      <!-- Page Title -->
+      <title>Dashboard 3 | Adminify - Multipurpose Admin Dashboard Template</title>
+      <!-- Main CSS -->			
+      <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="assets/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+      <link href="assets/plugins/linearicons/css/linearicons.css" rel="stylesheet" />
+      <link href="assets/plugins/ionicons/css/ionicons.css" rel="stylesheet" />
+      <link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet">
+      <link href="assets/plugins/morris/morris.min.css" rel="stylesheet">
+      <link href="assets/css/skin-turquoise.css" rel="stylesheet" id="style-colors">
+      <link href="assets/css/app.min.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <!-- Favicon -->	
+      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <!--================================-->
+      <!-- Page Container Start -->
+      <!--================================-->
+      <div class="page-container">
+         <!--================================-->
+         <!-- Page Sidebar Start -->
+         <!--================================-->
+         <div class="page-sidebar">
+            <a class="logo-box" href="index.html">
+            <span><img src="assets/images/logo-white.png" alt=""></span>
+            <i class="ion-aperture" id="fixed-sidebar-toggle-button"></i>
+            <i class="ion-ios-close-empty" id="sidebar-toggle-button-close"></i>
+            </a>
+            <div class="page-sidebar-inner">
+               <div class="page-sidebar-menu">
+                  <ul class="accordion-menu">
+                     <li class="open active">
+                        <a href="javascript:void(0)"><i class="fa fa-tachometer"></i>
+                        <span>Dashboard</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu" style="display: block;">
+                           <li><a href="index.html">Dashboard v.1</a></li>
+                           <li><a href="index2.html">Dashboard v.2</a></li>
+                           <!-- Active Page -->
+                           <li class="active"><a href="index3.html">Dashboard v.3</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-envelope-o"></i>
+                        <span>Mailbox</span><span class="badge-warning ft-right">10+</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="mailbox.html">Inbox</a></li>
+                           <li><a href="mailbox-message.html">View Mail</a></li>
+                           <li><a href="mailbox-compose.html">Compose Mail</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="widgets.html"><i class="fa fa-object-group"></i>
+                        <span>Widgets</span><span class="badge-info ft-right">Hot</span></a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);"><i class="fa fa-clone"></i>
+                        <span>Layouts</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="layout-blank.html">Blank Page</a></li>
+                           <li><a href="layout-collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                           <li><a href="layout-fixed-header.html">Fixed Header</a></li>
+                           <li><a href="layout-collapsed-fixed-header.html">Collapsed &amp; Fixed Header</a></li>
+                           <li><a href="layout-boxed.html">Boxed Layout</a></li>
+                           <li><a href="layout-boxed-collapsed-sidebar.html">Boxed &amp; Collapsed Sidebar</a></li>
+                        </ul>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>
+                     <li class="mg-20-force menu-elements">Elements</li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-underline"></i>
+                        <span>UI Kits</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="ui-card.html">Card</a></li>
+                           <li><a href="ui-alert.html">Alerts</a></li>
+                           <li><a href="ui-button.html">Buttons</a></li>
+                           <li><a href="ui-badge.html">Badges</a></li>
+                           <li><a href="ui-icon.html">Icons</a></li>
+                           <li><a href="ui-typography.html">Typography</a></li>
+                           <li><a href="ui-notification.html">Notifications</a></li>
+                           <li><a href="ui-modal.html">Modals</a></li>
+                           <li><a href="ui-tooltip.html">Tooltips</a></li>
+                           <li><a href="ui-progress.html">Progress</a></li>
+                           <li><a href="ui-spinner.html">Spinners</a></li>
+                           <li><a href="ui-accordion.html">Accordions</a></li>
+                           <li><a href="ui-pagination.html">Pagination</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-th"></i>
+                        <span>Components</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="com-datepicker.html">Date Picker</a></li>
+                           <li><a href="com-timepicker.html">Time Picker</a></li>
+                           <li><a href="com-colorpicker.html">Color Picker</a></li>
+                           <li><a href="com-bootselect.html">Bootstrap Select</a></li>
+                           <li><a href="com-codeeditor.html">Code Editor</a></li>
+                           <li><a href="com-wysiwyg.html">WYSIWYG Editor</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-wpforms"></i>
+                        <span>Forms</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="form-element.html">Form Elements</a></li>
+                           <li><a href="form-layout.html">Form Layouts</a></li>
+                           <li><a href="form-wizard.html">Form Wizard</a></li>
+                           <li><a href="form-validation.html">Form Validation</a></li>
+                           <li><a href="form-upload.html">File Upload</a></li>
+                           <li><a href="form-publisher.html">Form Publishers</a></li>
+                           <li><a href="form-formatter.html">Form Formatter </a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-table"></i>
+                        <span>Tables</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="table-static.html">Static</a></li>
+                           <li><a href="table-responsive.html">Responsive</a></li>
+                           <li><a href="table-datatable.html">Data Tables</a></li>
+                           <li><a href="table-footable.html">Foo Tables</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-pie-chart"></i>
+                        <span>Charts</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="chart-morris.html">Morris Charts</a></li>
+                           <li><a href="chart-chartjs.html">ChartJS Charts</a></li>
+                           <li><a href="chart-flot.html">Flot Charts</a></li>
+                           <li><a href="chart-chartlist.html">Chartlist Charts</a></li>
+                           <li><a href="chart-sparkline.html">Sparkline Charts</a></li>
+                           <li><a href="chart-peity.html">Peity Charts</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-map-o"></i>
+                        <span>Maps</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="map-google.html">Google Maps</a></li>
+                           <li><a href="map-vector.html">Vector Maps</a></li>
+                        </ul>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>
+                     <li class="mg-20-force menu-extras">Extras</li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-shirtsinbulk"></i>
+                        <span>App View</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="app-chatroom.html">Chat Room</a></li>
+                           <li><a href="app-calendar.html">Calendar</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-cart-plus"></i>
+                        <span>eCommarce</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="ecom-productgrid.html">Product Grid</a></li>
+                           <li><a href="ecom-productlist.html">Product List</a></li>
+                           <li><a href="ecom-productview.html">Product View</a></li>
+                           <li><a href="ecom-order.html">Product Order</a></li>
+                           <li><a href="ecom-ordercart.html">Order Cart</a></li>
+                           <li><a href="ecom-checkout.html">Order Checkout</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-file-powerpoint-o"></i>
+                        <span>Pages</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="page-invoice.html">Invoice</a></li>
+                           <li><a href="page-error404.html">404 Page</a></li>
+                           <li><a href="page-error500.html">500 Page</a></li>
+                           <li><a href="page-profile.html">Profile</a></li>
+                           <li><a href="page-singin.html">Login</a></li>
+                           <li><a href="page-singup.html">Register</a></li>
+                           <li><a href="page-unlock.html">Lockscreen</a></li>
+                           <li><a href="page-password.html">password Reset</a></li>
+                           <li><a href="page-search.html">Search Result</a></li>
+                           <li><a href="page-gallery.html">Gallery</a></li>
+                           <li><a href="page-pricing.html">Pricing Tables</a></li>
+                           <li><a href="page-treeview.html">Tree View</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="email-template.html"><i class="fa fa-folder-open-o"></i>
+                        <span>Email Templates</span><span class="badge-warning ft-right">Hot</span></a>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>                     
+                     <li class="mg-20-force menu-others">Others</li>
+                     <li>
+                        <a href="../documentation/documentation.html"><i class="fa fa-cogs"></i>
+                        <span>Documentation</span></a>
+                     </li>
+                     <li>
+                        <a href="../documentation/changelog.html"><i class="fa fa-support"></i>
+                        <span>Changelog</span><span class="badge-danger ft-right">1.0</span></a>
+                     </li>
+                  </ul>
+               </div>
+               <!--================================-->
+               <!-- Sidebar Information Summary -->
+               <!--================================-->		
+               <div class="sidebar-info-summary mg-y-80">
+                  <p class="tx-uppercase tx-white pd-x-15">Information Summary</p>
+                  <div class="d-bock pd-x-15">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1op-8 tx-white mg-b-2 space-nowrap">Memory Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">32.3%</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">CPU Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">140.05</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Disk Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">82.02%</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 35%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Daily Traffic</p>
+                        <h5 class="tx-white tx-normal mg-b-0">2,201</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 10%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-secondary" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Monthly Traffic</p>
+                        <h5 class="tx-white tx-normal mg-b-0">63,584</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--================================-->
+            <!-- Sidebar Footer Start -->
+            <!--================================-->
+            <div class="sidebar-footer">									
+               <a class="pull-left" href="page-profile.html" data-toggle="tooltip" data-placement="top" data-original-title="Profile">
+               <i class="icon-user"></i></a>									
+               <a class="pull-left " href="mailbox.html" data-toggle="tooltip" data-placement="top" data-original-title="Mailbox">
+               <i class="icon-envelope"></i></a>
+               <a class="pull-left" href="page-unlock.html" data-toggle="tooltip" data-placement="top" data-original-title="Lockscreen">
+               <i class="icon-lock"></i></a>
+               <a class="pull-left" href="page-singin.html" data-toggle="tooltip" data-placement="top" data-original-title="Sing Out">
+               <i class="icon-power"></i></a>
+            </div>
+            <!--/ Sidebar Footer End -->
+         </div>
+         <!--/ Page Sidebar End -->
+         <!--================================-->
+         <!-- Page Content Start -->
+         <!--================================-->
+         <div class="page-content">
+            <!--================================-->
+            <!-- Page Header Start -->
+            <!--================================-->
+            <div class="page-header">
+               <div class="search-form">
+                  <form action="#" method="GET">
+                     <div class="input-group">
+                        <input class="form-control search-input" name="search" placeholder="Type something..." type="text"/>
+                        <span class="input-group-btn">
+                        <span id="close-search"><i class="ion-ios-close-empty"></i></span>
+                        </span>
+                     </div>
+                  </form>
+               </div>
+               <nav class="navbar navbar-default">
+                  <!--================================-->
+                  <!-- Brand and Logo Start -->
+                  <!--================================-->
+                  <div class="navbar-header">
+                     <div class="navbar-brand">
+                        <ul class="list-inline">
+                           <!-- Mobile Toggle and Logo -->
+                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="javascript:void(0)" id="sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
+                           <!-- PC Toggle and Logo -->
+                           <li class="list-inline-item"><a class="text-muted hidden-xs hidden-sm" href="javascript:void(0)" id="collapsed-sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
+                           <li class="list-inline-item mg-l-10"><a class="text-muted" href="javascript:void(0)" id="search-button"><i class="ion-ios-search-strong tx-20"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!--/ Brand and Logo End -->
+                  <!--================================-->
+                  <!-- Header Right Start -->
+                  <!--================================-->
+                  <div class="header-right pull-right">
+                     <ul class="list-inline justify-content-end">
+                        <!--================================-->
+                        <!-- Languages Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="assets/images/flags/usa.png" class="mg-b-5 wd-20 img-fluid" alt="">
+                           </a>
+                           <ul class="dropdown-menu languages-dropdown shadow-2">
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="en"><img src="assets/images/flags/usa.png" class="img-fluid wd-20" alt=""> <span>English-US</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="es"><img src="assets/images/flags/spanish.png" class="img-fluid wd-20" alt=""> <span>Spanish</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="fr"><img src="assets/images/flags/french.png" class="img-fluid wd-20" alt=""> <span>French</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="gr"><img src="assets/images/flags/germany.png" class="img-fluid wd-20" alt=""> <span>German</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="ru"><img src="assets/images/flags/russia.png" class="img-fluid wd-20" alt=""> <span>Russian</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="ru"><img src="assets/images/flags/united-kingdom.png" class="img-fluid wd-20" alt=""> <span>English-UK</span></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Languages Dropdown End -->
+                        <!--================================-->
+                        <!-- Notifications Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="ion-ios-bell-outline tx-20"></i>
+                           <span class="notification-count wave in"></span>
+                           </a>
+                           <ul class="dropdown-menu shadow-2">
+                              <li class="notification-header">
+                                 <span class="float-left">Notifications (7)</span>
+                                 <a href="javascript:void(0)" class="float-right">Mark all as read</a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-camera-outline pd-r-5 tx-teal"></i>
+                                 <span>Steve rated your photo</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-document pd-r-5 tx-purple"></i>
+                                 <span>New document available</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-android-favorite-outline pd-r-5 tx-warning"></i>
+                                 <span>John added you to fav</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-stopwatch-outline pd-r-5 tx-primary"></i>
+                                 <span>Meeting in 1 hour</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-document pd-r-5 tx-purple"></i>
+                                 <span>New document available</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-stopwatch-outline pd-r-5 tx-primary"></i>
+                                 <span>Meeting in 1 hour</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-speedometer-outline pd-r-5 tx-success"></i>
+                                 <span>Server 5 overloaded</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-footer text-center">
+                                 <a href="javascript:void(0)">View All</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Notifications Dropdown End -->
+                        <!--================================-->
+                        <!-- Messages Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="ion-ios-email-outline tx-20"></i>
+                           <span class="messages-count wave in"></span>
+                           </a>
+                           <ul class="dropdown-menu shadow-2">
+                              <li class="messages-header">
+                                 <span class="float-left">Messages (3)</span>
+                                 <a href="javascript:void(0)" class="float-right">Mark all as read</a>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar4.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar2.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar6.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-footer text-center">
+                                 <a href="javascript:void(0)">View All</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Messages Dropdown End -->
+                        <!--================================-->
+                        <!-- Profile Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="select-profile">Hi, John!</span>
+                           <img src="assets/images/avatar/avatar.png" class="mg-b-10 img-fluid wd-30" alt="">
+                           </a>
+                           <ul class="dropdown-menu profile-dropdown shadow-2">
+                              <li>
+                                 <a href="page-profile.html"><i class="icon-user"></i><span>My Profile</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-pencil"></i><span>Edit Profile</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-action-redo"></i><span>Activity Log</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-calendar"></i><span>My Calendar</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-cloud-download"></i><span>My Download</span></a>
+                              </li>
+                              <li>
+                                 <hr class="hr-style">
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-settings"></i><span>Settings</span></a>
+                              </li>
+                              <li>
+                                 <a href="page-unlock.html"><i class="icon-lock"></i><span>Lockscreen</span></a>
+                              </li>
+                              <li>
+                                 <a href="page-singin.html"><i class="icon-logout"></i><span>Sing Out</span></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!-- Profile Dropdown End -->
+                     </ul>
+                  </div>
+                  <!--/ Header Right End -->
+               </nav>
+            </div>
+            <!--/ Page Header End -->
+            <!--================================-->
+            <!-- Page Inner Start -->
+            <!--================================-->
+            <div class="page-inner">
+               <!--================================-->
+               <!-- Main Wrapper Start -->
+               <!--================================-->
+               <div id="main-wrapper">
+                  <!--================================-->
+                  <!-- Breadcrumb Start -->
+                  <!--================================-->
+                  <div class="pageheader pd-y-25">
+                     <div class="pd-t-5 pd-b-5">
+                        <h1 class="pd-0 mg-0 tx-20 text-overflow">Dashboard v.3</h1>
+                     </div>
+                     <div class="breadcrumb pd-0 mg-0">
+                        <a class="breadcrumb-item" href="index.html"><i class="icon ion-ios-home-outline"></i> Home</a>
+                        <a class="breadcrumb-item" href="javascript:void(0)">Dashboard</a>
+                        <span class="breadcrumb-item active">Dashboard v.3</span>
+                     </div>
+                  </div>
+                  <!-- Breadcrumb End -->
+                  <!--================================-->
+                  <!-- Count Card Start -->
+                  <!--================================-->
+                  <div class="row clearfix">
+                     <div class="col-xl-3 col-md-6">
+                        <div class="card mg-b-30 bg-teal rounded shadow-1">
+                           <div class="pd-20 align-items-center card-img">
+                              <div class="ft-left">
+                                 <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10 text-white">Today's Visits</p>
+                                 <p class="tx-20 tx-inverse tx-black mg-b-0 lh-1 text-white">1,224</p>
+                                 <span class="tx-13 tx-poppins tx-gray-600 text-white">24% higher</span>
+                              </div>
+                              <div class="ft-right">
+								<i class="ion ion-earth tx-80 lh-0 tx-primary op-5 text-white ft-right"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-md-6">
+                        <div class="card mg-b-30 bg-danger rounded shadow-1">
+                           <div class="pd-20 align-items-center card-img">
+                              <div class="ft-left">
+                                 <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10 text-white">Today Sales</p>
+                                 <p class="tx-20 tx-inverse tx-black mg-b-0 lh-1 text-white">$3,291</p>
+                                 <span class="tx-13 tx-poppins tx-gray-600 text-white">$1,212 before tax</span>
+                              </div>
+                              <div class="ft-right">
+								<i class="ion-laptop tx-80 lh-0 tx-purple op-5 text-white"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-md-6">
+                        <div class="card mg-b-30 bg-primary rounded shadow-1">
+                           <div class="pd-20 align-items-center card-img">
+                              <div class="ft-left">
+                                 <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10 text-white">Unique Visits</p>
+                                 <p class="tx-20 tx-inverse tx-black mg-b-0 lh-1 text-white">68.35%</p>
+                                 <span class="tx-13 tx-poppins tx-gray-600 text-white">45% average</span>
+                              </div>
+                              <div class="ft-right">								
+								<i class="ion-speedometer tx-80 lh-0 tx-teal op-5 text-white"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-md-6">
+                        <div class="card mg-b-30 bg-info rounded shadow-1">
+                           <div class="pd-20 align-items-center card-img">                              
+                              <div class="ft-left">
+                                 <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10 text-white">Total Seals</p>
+                                 <p class="tx-20 tx-inverse tx-black mg-b-0 lh-1 text-white">$10,852</p>
+                                 <span class="tx-13 tx-poppins tx-gray-600 text-white">68.45% higher</span>
+                              </div>
+                              <div class="ft-right">								
+								<i class="ion ion-social-usd tx-80 lh-0 tx-teal op-5 text-white"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Count Card End -->
+                  <!--================================-->
+                  <!-- Visitors Statistics Start -->
+                  <!--================================-->
+                  <div class="row no-gutters d-block clearfix">
+                     <div class="card mg-b-30 shadow-1">
+                        <div class="card-header with-elements">
+                           <h4 class="card-header-title">
+                              Statistics
+                           </h4>
+                           <div class="card-header-btn">
+                              <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse1" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                              <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                              <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                              <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                           </div>
+                        </div>
+                        <div class="row no-gutters row-bordered collapse show" id="collapse1">
+                           <div class="col-md-9 col-xl-9">
+                              <div class="card-body">
+                                 <div class="clearfix">
+                                    <div id="bar2" style="height: 250px"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-3 col-xl-3">
+                              <div class="card-body">
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Sales Statistics </p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-primary wd-85p" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Visitors Statistics </p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-warning wd-75p" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Page Views Statistics </p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-teal wd-65p" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Budgets Statistics </p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-purple wd-55p" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Projects Statistics </p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-magenta wd-80p" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                                 <div class="text-muted mb-3">
+                                    <p class="mg-b-5">Task Statistics</p>
+                                    <div class="progress mg-b-5 ht-5">
+                                       <div class="progress-bar bg-orange wd-70p" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--/ Visitors Statistics End -->
+                  <div class="row">
+                     <!--================================-->
+                     <!-- Today Purchases Start -->
+                     <!--================================-->
+                     <div class="col-md-6">
+                        <div class="card mg-b-30 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Today Purchases
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse2" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="table-responsive collapse show" id="collapse2">
+                              <table class="table card-table">
+                                 <thead>
+                                    <tr>
+                                       <th class="serial">#</th>
+                                       <th class="avatar">Avatar</th>
+                                       <th>ID</th>
+                                       <th>Name</th>
+                                       <th>Product</th>
+                                       <th>Quantity</th>
+                                       <th>Status</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td class="serial">1.</td>
+                                       <td class="avatar">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user1.png" alt=""></a>
+                                       </td>
+                                       <td><a href="javascript:void(0)"> #5469 </a></td>
+                                       <td> <span class="name">Louis Stanley</span> </td>
+                                       <td> <span class="product">iMax</span> </td>
+                                       <td><span class="count">231</span></td>
+                                       <td>
+                                          <span class="badge-success">Complete</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="serial">2.</td>
+                                       <td class="avatar">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user2.png" alt=""></a>
+                                       </td>
+                                       <td><a href="javascript:void(0)"> #5269 </a></td>
+                                       <td> <span class="name">Gregory Dixon</span> </td>
+                                       <td> <span class="product">iPad</span> </td>
+                                       <td><span class="count">250</span></td>
+                                       <td>
+                                          <span class="badge-warning">Pending</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="serial">3.</td>
+                                       <td class="avatar">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user3.png" alt=""></a>
+                                       </td>
+                                       <td> <a href="javascript:void(0)"> #7561 </a> </td>
+                                       <td> <span class="name">Catherine Dixon</span> </td>
+                                       <td> <span class="product">SSD</span> </td>
+                                       <td><span class="count">250</span></td>
+                                       <td>
+                                          <span class="badge-success">Complete</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="serial">4.</td>
+                                       <td class="avatar">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user4.png" alt=""></a>
+                                       </td>
+                                       <td> <a href="javascript:void(0)"> #5929 </a> </td>
+                                       <td> <span class="name">Mary Silva</span> </td>
+                                       <td> <span class="product">Magic Mouse</span> </td>
+                                       <td><span class="count">250</span></td>
+                                       <td>
+                                          <span class="badge badge-warning">Pending</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="serial">5.</td>
+                                       <td class="avatar">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user2.png" alt=""></a>
+                                       </td>
+                                       <td> <a href="javascript:void(0)"> #7361 </a> </td>
+                                       <td> <span class="name">Catherine Dixon</span> </td>
+                                       <td> <span class="product">SSD</span> </td>
+                                       <td><span class="count">250</span></td>
+                                       <td>
+                                          <span class="badge-success">Complete</span>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/ Today Purchases End -->
+                     <!--================================-->
+                     <!-- Top Purchases Start -->
+                     <!--================================-->
+                     <div class="col-md-6">
+                        <div class="card mg-b-30 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Top Purchases
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse3" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="table-responsive collapse show" id="collapse3">
+                              <table class="table card-table">
+                                 <thead>
+                                    <tr>
+                                       <th>Clients</th>
+                                       <th>Item Details</th>
+                                       <th>Sold</th>
+                                       <th>Gain</th>
+                                       <th>Actions</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td class="pd-l-20">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user1.png" alt=""></a>
+                                       </td>
+                                       <td>
+                                          <a href="javascript:void(0)" class="d-block">The Dothraki</a>
+                                          <span class="tx-11 d-block"><span class="square-8 bg-danger mg-r-5 rounded-circle"></span> 20 remaining</span>
+                                       </td>
+                                       <td class="valign-middle tx-right">$3,345</td>
+                                       <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i>33.34%</span> last week</td>
+                                       <td class="valign-middle">
+                                          <span class="badge-success">Progresses</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="pd-l-20">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user2.png" alt=""></a>
+                                       </td>
+                                       <td>
+                                          <a href="javascript:void(0)" class="d-block">Westeros Sneaker</a>
+                                          <span class="tx-11 d-block"><span class="square-8 bg-success mg-r-5 rounded-circle"></span> In stock</span>
+                                       </td>
+                                       <td class="valign-middle tx-right">$320</td>
+                                       <td class="valign-middle"><span class="tx-danger"><i class="icon ion-android-arrow-down mg-r-5"></i>21.20%</span> last week</td>
+                                       <td class="valign-middle">
+                                          <span class="badge-danger">Progresses</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="pd-l-20">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user3.png" alt=""></a>
+                                       </td>
+                                       <td>
+                                          <a href="javascript:void(0)" class="d-block">Westeros Sneaker</a>
+                                          <span class="tx-11 d-block"><span class="square-8 bg-success mg-r-5 rounded-circle"></span> In stock</span>
+                                       </td>
+                                       <td class="valign-middle tx-right">$150</td>
+                                       <td class="valign-middle"><span class="tx-danger"><i class="icon ion-android-arrow-down mg-r-5"></i>21.20%</span> last week</td>
+                                       <td class="valign-middle">
+                                          <span class="badge-danger">Damages</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="pd-l-20">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user4.png" alt=""></a>
+                                       </td>
+                                       <td>
+                                          <a href="javascript:void(0)" class="d-block">Selonian Hand</a>
+                                          <span class="tx-11 d-block"><span class="square-8 bg-success mg-r-5 rounded-circle"></span> In stock</span>
+                                       </td>
+                                       <td class="valign-middle tx-right">$1,845</td>
+                                       <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i>23.34%</span> last week</td>
+                                       <td class="valign-middle">
+                                          <span class="badge-success">Progresses</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="pd-l-20">
+                                          <a href="javascript:void(0)"><img class="wd-35 rounded-circle img-fluid" src="assets/images/user/user5.png" alt=""></a>
+                                       </td>
+                                       <td>
+                                          <a href="javascript:void(0)" class="d-block">Kel Dor Sunglass</a>
+                                          <span class="tx-11 d-block"><span class="square-8 bg-warning mg-r-5 rounded-circle"></span> 45 remaining</span>
+                                       </td>
+                                       <td class="valign-middle tx-right">$1,355</td>
+                                       <td class="valign-middle"><span class="tx-success"><i class="icon ion-android-arrow-up mg-r-5"></i>28.78%</span> last week</td>
+                                       <td class="valign-middle">
+                                          <span class="badge-success">Progresses</span>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/ Top Purchases End -->
+                  </div>
+                  <!--================================-->
+                  <!-- Summary Statistic Start  -->
+                  <!--================================-->
+                  <div class="row row-smrow-sm ">
+                     <div class="col-md-6">
+                        <div class="card mg-b-30 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Last Week Summary
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse4" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="card-body" id="collapse4">
+                              <div class="row">
+                                 <div class="col-sm-6">
+                                    <p class="tx-26 mg-b-5">25%</p>
+                                    <div class="progress mg-b-10 ht-5">
+                                       <div class="progress-bar bg-primary wd-30p" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="tx-13">Nulla consequat massa quis enim. Donec pede justo, fringilla vel...</p>
+                                    <p class="tx-11 lh-3 mg-b-0">You can also use other progress variant found in <a href="javascript:void(0)">progress section</a>.</p>
+                                 </div>
+                                 <div class="col-sm-6 mg-t-20 mg-sm-t-0 d-flex align-items-center justify-content-center">
+                                    <span id="summyBarChart1">7,8,10,7,5,9,10,6,9,6,9,5,9,5,9,10,10,6,9,4,7,5,9,7,8</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 mg-t-30 mg-lg-t-0">
+                        <div class="card mg-b-30 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Last Month Summary
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse5" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="card-body" id="collapse5">
+                              <div class="row">
+                                 <div class="col-sm-6 pd-r-20">
+                                    <p class="tx-26 mg-b-5">45%</p>
+                                    <div class="progress mg-b-10 ht-5">
+                                       <div class="progress-bar bg-danger wd-45p" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="tx-13">Nulla consequat massa quis enim. Donec pede justo, fringilla vel...</p>
+                                    <p class="tx-11 lh-3 mg-b-0">You can also use other progress variant found in <a href="javascript:void(0)">progress section</a></p>
+                                 </div>
+                                 <div class="col-sm-6 mg-t-20 mg-sm-t-0 d-flex align-items-end justify-content-center">
+                                    <span id="summyBarChart2">7,8,10,7,5,9,10,6,9,5,9,5,9,10,9,10,6,6,9,4,7,5,9,10,8</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--/ Summary Statistic End  -->
+                  <div class="row clearfix">
+                     <!--================================-->
+                     <!-- Visitors Card Start -->
+                     <!--================================-->	
+                     <div class="col-lg-12 col-xl-4  col-12">
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Visitors List
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse6" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="card-body mg-y-5 collapse show" id="collapse6">
+                              <ul class="visitor list-unstyled list-unstyled-border">
+                                 <li class="media p-3 mb-0">
+                                    <img class="mr-3 rounded-circle" width="30" src="assets/images/user/user1.png" alt="avatar"> 
+                                    <div class="media-body">
+                                       <div class="float-right"><small>10-9-2018</small></div>
+                                       <div class="media-title">Blake Vanessa</div>
+                                       <small>sed do eiusmod tempor incididunt ut labore</small> 
+                                    </div>
+                                 </li>
+                                 <li class="media p-3 mb-0 bd-t">
+                                    <img class="mr-3 rounded-circle" width="30" src="assets/images/user/user2.png" alt="avatar"> 
+                                    <div class="media-body">
+                                       <div class="float-right"><small>15-9-2018</small></div>
+                                       <div class="media-title">Keith Rutherford</div>
+                                       <small>sed do eiusmod tempor incididunt ut labore</small> 
+                                    </div>
+                                 </li>
+                                 <li class="media p-3 mb-0 bd-t">
+                                    <img class="mr-3 rounded-circle" width="30" src="assets/images/user/user3.png" alt="avatar"> 
+                                    <div class="media-body">
+                                       <div class="float-right"><small>15-9-2018</small></div>
+                                       <div class="media-title">Keith Rutherford</div>
+                                       <small>sed do eiusmod tempor incididunt ut labore</small> 
+                                    </div>
+                                 </li>
+                                 <li class="media p-3 mb-0 bd-t">
+                                    <img class="mr-3 rounded-circle" width="30" src="assets/images/user/user4.png" alt="avatar"> 
+                                    <div class="media-body">
+                                       <div class="float-right"><small>17-9-2018</small></div>
+                                       <div class="media-title">Elizabeth Parsons</div>
+                                       <small>sed do eiusmod tempor incididunt ut labore</small> 
+                                    </div>
+                                 </li>
+                                 <li class="media border-b0 p-3 mb-0 bd-t">
+                                    <img class="mr-3 rounded-circle" width="30" src="assets/images/user/user5.png" alt="avatar"> 
+                                    <div class="media-body">
+                                       <div class="float-right"><small>22-9-2018</small></div>
+                                       <div class="media-title">Nicola Lambert</div>
+                                       <small>sed do eiusmod tempor incididunt ut labore</small> 
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/ Visitors Card End -->
+                     <!--================================-->
+                     <!-- Browsing Card Start -->
+                     <!--================================-->	
+                     <div class="col-lg-12 col-xl-4  col-12">
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Browsing Status
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse7" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="card-body collapse show" id="collapse7">
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Chrome</span> <small class="float-right">75%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-pink wd-75p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Firefox</span> <small class="float-right">56%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-primary wd-65p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left"> Safari</span> <small class="float-right">35%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-orange wd-35p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Opera</span> <small class="float-right">30%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-purple wd-30p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Microsoft Edge</span> <small class="float-right">40%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-indigo wd-40p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Internet Explore</span> <small class="float-right">60%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-danger wd-60p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Other Browser</span> <small class="float-right">25%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-teal wd-25p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix mt-3 mb-1"> <span class="float-left">Tor Browser</span> <small class="float-right">50%</small> </div>
+                              <div class="card-progressbar">
+                                 <div class="progress ht-5">
+                                    <div class="progress-bar bg-pink wd-50p" role="progressbar"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/ Browsing Card End -->
+                     <!--================================-->
+                     <!-- Countries Card Start -->
+                     <!--================================-->	
+                     <div class="col-md-12 col-lg-4">
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Top Countries
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a  href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse8" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="card-body collapse show" id="collapse8">
+                              <table class="table card-table ">
+                                 <tbody>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/usa.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          USA
+                                          <div class="progress mt-1 ht-5">
+                                             <div class="progress-bar bg-danger" style="width: 78%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="wd-50 text-right align-middle"><span class="text-muted">$5235</span></td>
+                                    </tr>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/united-kingdom.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          UK
+                                          <div class="progress mt-2 ht-5">
+                                             <div class="progress-bar bg-teal" style="width: 62%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="text-right"><span class="text-muted">$3214</span></td>
+                                    </tr>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/germany.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          Germany
+                                          <div class="progress mt-2 ht-5">
+                                             <div class="progress-bar bg-purple" style="width: 70%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="text-right"><span class="text-muted">$4123</span></td>
+                                    </tr>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/russia.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          Russia
+                                          <div class="progress mt-2 ht-5">
+                                             <div class="progress-bar bg-indigo" style="width: 55%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="text-right"><span class="text-muted">$2943</span></td>
+                                    </tr>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/french.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          France
+                                          <div class="progress mt-2 ht-5">
+                                             <div class="progress-bar bg-info" style="width: 66%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="text-right"><span class="text-muted ">$3653</span></td>
+                                    </tr>
+                                    <tr>
+                                       <td class="wd-50 align-middle">
+                                          <img src="assets/images/flags/india.png" class="img-fluid wd-30" alt="">
+                                       </td>
+                                       <td>
+                                          India
+                                          <div class="progress mt-2 ht-5">
+                                             <div class="progress-bar bg-danger" style="width: 35%"></div>
+                                          </div>
+                                       </td>
+                                       <td class="text-right"><span class="text-muted ">$1543</span></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/ Countries Card End -->
+                  </div>
+                  <!--/ Main Wrapper End -->
+               </div>
+               <!--/ Page Inner End -->
+            </div>
+            <!--/ Page Content End -->
+            <!--================================-->
+            <!-- Page Footer Start-->
+            <!--================================-->
+            <footer class="page-footer bg-gray-100">
+               <div class="pd-y-10 pd-x-25">
+                  <span class="tx-italic text-muted">Copyright&copy; 2019</span>
+               </div>
+            </footer>
+            <!--/ Page Footer End-->
+         </div>
+         <!--/ Page Content End -->
+      </div>
+      <!--/ Page Container End -->
+      <!--================================-->
+      <!-- Color switcher Start -->
+      <!--================================-->	
+      <div class="color-switcher hide-color-switcher">
+         <!--Color switcher Show/Hide button -->
+         <a class="switcher-button"><i class="fa fa-cog fa-spin"></i></a>
+         <!-- Color switcher title -->
+         <div class="color-switcher-title">
+            <span class="tx-16 text-center">Color Switcher</span>
+         </div>
+         <!-- Colors style -->
+         <div class="color-list">
+            <a class="color turquoise-theme" title="turquoise"></a>
+            <a class="color emerald-theme" title="emerald"></a>
+            <a class="color peter-river-theme" title="peter-river"></a>
+            <a class="color amethyst-theme" title="amethyst"></a>
+            <a class="color wet-asphalt-theme" title="wet-asphalt"></a>
+            <a class="color green-sea-theme" title="green-sea"></a>
+            <a class="color nephritis-theme" title="nephritis"></a>
+            <a class="color belize-hole-theme" title="belize-hole"></a>
+            <a class="color wisteria-theme" title="wisteria"></a>
+            <a class="color midnight-blue-theme" title="midnight-blue"></a>
+            <a class="color sun-flower-theme" title="sun-flower"></a>
+            <a class="color carrot-theme" title="carrot"></a>
+            <a class="color alizarin-theme" title="alizarin"></a>
+            <a class="color concrete-theme" title="concrete"></a>
+            <a class="color orange-theme" title="orange"></a>
+            <a class="color pumpkin-theme" title="pumpkin"></a>
+            <a class="color bordeaux-theme" title="bordeaux"></a>
+            <a class="color dark-theme" title="dark"></a>
+         </div>
+      </div>
+      <!--/ Color switcher  End  -->
+      <!--================================-->
+      <!-- Scroll To Top Start-->
+      <!--================================-->	
+      <a href="#" data-click="scroll-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
+      <!--/ Scroll To Top End -->
+      <!--================================-->
+      <!-- Footer Script -->
+      <!--================================-->
+      <script src="assets/plugins/jquery/jquery.min.js"></script>
+      <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
+      <script src="assets/plugins/popper/popper.js"></script>
+      <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/plugins/pace/pace.min.js"></script>
+      <script src="assets/plugins/toastr/toastr.min.js"></script>
+      <script src="assets/plugins/morris/morris.min.js"></script>
+      <script src="assets/plugins/morris/raphael.min.js"></script>
+      <script src="assets/plugins/sparkline/sparkline.min.js"></script>
+      <script src="assets/js/jquery.slimscroll.min.js"></script>
+      <script src="assets/js/highlight.min.js"></script>
+      <script src="assets/js/adminify.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script>
+         // Toster Notification
+         $(document).ready(function() {
+         	setTimeout(function() {
+         		toastr.options = {
+         			positionClass: 'toast-top-right',
+         			closeButton: true,
+         			progressBar: true,
+         			showMethod: 'slideDown',
+         			timeOut: 5000
+         		};
+         		toastr.info('Multipurpose Admin Template', 'Hi, welcome to Adminify');
+         
+         	}, 300);
+         
+         });
+         
+         // SummaryBarChar1			
+          $('#summyBarChart1').sparkline('html', {
+         type: 'bar',
+         barWidth: 10,
+         height: 150,
+         barColor: '#0083CD',
+         chartRangeMax: 12
+          });
+         
+          $('#summyBarChart1').sparkline([4,5,6,7,4,5,8,7,6,6,4,8,7,6,6,4,8,7,6,6,4,7,6,4,7], {
+         composite: true,
+         type: 'bar',
+         barWidth: 10,
+         height: 150,
+         barColor: '#11546F',
+         chartRangeMax: 12,
+          });
+          
+          // SummaryBarChar2			
+          $('#summyBarChart2').sparkline('html', {
+         type: 'bar',
+         barWidth: 10,
+         height: 150,
+         barColor: '#d34836',
+         chartRangeMax: 12
+          });
+         
+          $('#summyBarChart2').sparkline([4,5,6,7,4,5,8,7,6,6,4,8,7,6,6,4,8,7,6,6,4,7,6,4,7], {
+         composite: true,
+         type: 'bar',
+         barWidth: 10,
+         height: 150,
+         barColor: '#3b5998',
+         chartRangeMax: 12,
+          });
+         
+         // MORRIS BAR CHART 2	
+         Morris.Bar({
+         element: 'bar2',
+         data: [{
+         y: '1',
+         a: 100,
+         b: 90
+         },
+         {
+         y: '2',
+         a: 75,
+         b: 65
+         },
+         {
+         y: '3',
+         a: 20,
+         b: 15
+         },
+         {
+         y: '5',
+         a: 50,
+         b: 40
+         },
+         {
+         y: '6',
+         a: 75,
+         b: 95
+         },
+         {
+         y: '7',
+         a: 15,
+         b: 65
+         },
+         {
+         y: '8',
+         a: 70,
+         b: 100
+         },
+         {
+         y: '9',
+         a: 100,
+         b: 70
+         },
+         {
+         y: '10',
+         a: 50,
+         b: 70
+         },
+         {
+         y: '11',
+         a: 20,
+         b: 10
+         },
+         {
+         y: '12',
+         a: 40,
+         b: 90
+         },
+         {
+         y: '13',
+         a: 70,
+         b: 30
+         },
+         {
+         y: '14',
+         a: 50,
+         b: 50
+         },
+         {
+         y: '15',
+         a: 100,
+         b: 90
+         },
+         {
+         y: '16',
+         a: 50,
+         b: 70
+         },
+         {
+         y: '17',
+         a: 20,
+         b: 10
+         },
+         {
+         y: '18',
+         a: 40,
+         b: 90
+         },
+         {
+         y: '19',
+         a: 70,
+         b: 30
+         },
+         {
+         y: '20',
+         a: 50,
+         b: 50
+         }
+         ],
+         xkey: 'y',
+         ykeys: ['a', 'b'],
+         labels: ['Series A', 'Series B'],
+         gridEnabled: true,
+         gridLineColor: 'rgba(0,0,0,.1)',
+         gridTextColor: '#10171e',
+         gridTextSize: '11px',
+         barColors: ['#17a2b8', '#dde4ec'],
+         resize: true,
+         hideHover: 'auto'
+         });
+      </script>
+   </body>
+</html>

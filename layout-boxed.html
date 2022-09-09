@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta charset="utf-8">
+	  <meta http-equiv="x-ua-compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="description" content="">
+	  <meta name="keyword" content="">
+	  <meta name="author"  content=""/>
+      <!-- Page Title -->
+      <title>Boxed layout | Adminify - Multipurpose Admin Dashboard Template</title>
+      <!-- Main CSS -->			
+      <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="assets/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+      <link href="assets/plugins/ionicons/css/ionicons.css" rel="stylesheet">
+      <link href="assets/css/skin-turquoise.css" rel="stylesheet" id="style-colors">
+      <link href="assets/css/app.min.css" rel="stylesheet"/>
+      <link href="assets/css/style.css" rel="stylesheet"/>
+      <!-- Favicon -->	
+      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body class="card-img-2">
+      <!--================================-->
+      <!-- Page Container Start -->
+      <!--================================-->
+      <div class="page-container container">
+         <!--================================-->
+         <!-- Page Sidebar Start -->
+         <!--================================-->
+         <div class="page-sidebar">
+            <a class="logo-box" href="index.html">
+            <span><img src="assets/images/logo-white.png" alt=""></span>
+            <i class="ion-aperture" id="fixed-sidebar-toggle-button"></i>
+            <i class="ion-ios-close-empty" id="sidebar-toggle-button-close"></i>
+            </a>
+            <div class="page-sidebar-inner">
+               <div class="page-sidebar-menu">
+                  <ul class="accordion-menu">
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-tachometer"></i>
+                        <span>Dashboard</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="index.html">Dashboard v.1</a></li>
+                           <li><a href="index2.html">Dashboard v.2</a></li>
+                           <li><a href="index3.html">Dashboard v.3</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-envelope-o"></i>
+                        <span>Mailbox</span><span class="badge-warning ft-right">10+</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="mailbox.html">Inbox</a></li>
+                           <li><a href="mailbox-message.html">View Mail</a></li>
+                           <li><a href="mailbox-compose.html">Compose Mail</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="widgets.html"><i class="fa fa-object-group"></i>
+                        <span>Widgets</span><span class="badge-info ft-right">Hot</span></a>
+                     </li>
+                     <li class="open active">
+                        <a href="javascript:void(0);"><i class="fa fa-clone"></i>
+                        <span>Layouts</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu" style="display: block;">
+                           <li><a href="layout-blank.html">Blank Page</a></li>
+                           <li><a href="layout-collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                           <li><a href="layout-fixed-header.html">Fixed Header</a></li>
+                           <li><a href="layout-collapsed-fixed-header.html">Collapsed &amp; Fixed Header</a></li>
+                           <!-- Active Page -->
+                           <li class="active"><a href="layout-boxed.html">Boxed Layout</a></li>
+                           <li><a href="layout-boxed-collapsed-sidebar.html">Boxed &amp; Collapsed Sidebar</a></li>
+                        </ul>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>
+                     <li class="mg-20-force menu-elements">Elements</li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-underline"></i>
+                        <span>UI Kits</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="ui-card.html">Card</a></li>
+                           <li><a href="ui-alert.html">Alerts</a></li>
+                           <li><a href="ui-button.html">Buttons</a></li>
+                           <li><a href="ui-badge.html">Badges</a></li>
+                           <li><a href="ui-icon.html">Icons</a></li>
+                           <li><a href="ui-typography.html">Typography</a></li>
+                           <li><a href="ui-notification.html">Notifications</a></li>
+                           <li><a href="ui-modal.html">Modals</a></li>
+                           <li><a href="ui-tooltip.html">Tooltips</a></li>
+                           <li><a href="ui-progress.html">Progress</a></li>
+                           <li><a href="ui-spinner.html">Spinners</a></li>
+                           <li><a href="ui-accordion.html">Accordions</a></li>
+                           <li><a href="ui-pagination.html">Pagination</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-th"></i>
+                        <span>Components</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="com-datepicker.html">Date Picker</a></li>
+                           <li><a href="com-timepicker.html">Time Picker</a></li>
+                           <li><a href="com-colorpicker.html">Color Picker</a></li>
+                           <li><a href="com-bootselect.html">Bootstrap Select</a></li>
+                           <li><a href="com-codeeditor.html">Code Editor</a></li>
+                           <li><a href="com-wysiwyg.html">WYSIWYG Editor</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-wpforms"></i>
+                        <span>Forms</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="form-element.html">Form Elements</a></li>
+                           <li><a href="form-layout.html">Form Layouts</a></li>
+                           <li><a href="form-wizard.html">Form Wizard</a></li>
+                           <li><a href="form-validation.html">Form Validation</a></li>
+                           <li><a href="form-upload.html">File Upload</a></li>
+                           <li><a href="form-publisher.html">Form Publishers</a></li>
+                           <li><a href="form-formatter.html">Form Formatter </a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-table"></i>
+                        <span>Tables</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="table-static.html">Static</a></li>
+                           <li><a href="table-responsive.html">Responsive</a></li>
+                           <li><a href="table-datatable.html">Data Tables</a></li>
+                           <li><a href="table-footable.html">Foo Tables</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-pie-chart"></i>
+                        <span>Charts</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="chart-morris.html">Morris Charts</a></li>
+                           <li><a href="chart-chartjs.html">ChartJS Charts</a></li>
+                           <li><a href="chart-flot.html">Flot Charts</a></li>
+                           <li><a href="chart-chartlist.html">Chartlist Charts</a></li>
+                           <li><a href="chart-sparkline.html">Sparkline Charts</a></li>
+                           <li><a href="chart-peity.html">Peity Charts</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-map-o"></i>
+                        <span>Maps</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="map-google.html">Google Maps</a></li>
+                           <li><a href="map-vector.html">Vector Maps</a></li>
+                        </ul>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>
+                     <li class="mg-20-force menu-extras">Extras</li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-shirtsinbulk"></i>
+                        <span>App View</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="app-chatroom.html">Chat Room</a></li>
+                           <li><a href="app-calendar.html">Calendar</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-cart-plus"></i>
+                        <span>eCommarce</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="ecom-productgrid.html">Product Grid</a></li>
+                           <li><a href="ecom-productlist.html">Product List</a></li>
+                           <li><a href="ecom-productview.html">Product View</a></li>
+                           <li><a href="ecom-order.html">Product Order</a></li>
+                           <li><a href="ecom-ordercart.html">Order Cart</a></li>
+                           <li><a href="ecom-checkout.html">Order Checkout</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)"><i class="fa fa-file-powerpoint-o"></i>
+                        <span>Pages</span><i class="accordion-icon fa fa-angle-left"></i></a>
+                        <ul class="sub-menu">
+                           <li><a href="page-invoice.html">Invoice</a></li>
+                           <li><a href="page-error404.html">404 Page</a></li>
+                           <li><a href="page-error500.html">500 Page</a></li>
+                           <li><a href="page-profile.html">Profile</a></li>
+                           <li><a href="page-singin.html">Login</a></li>
+                           <li><a href="page-singup.html">Register</a></li>
+                           <li><a href="page-unlock.html">Lockscreen</a></li>
+                           <li><a href="page-password.html">password Reset</a></li>
+                           <li><a href="page-search.html">Search Result</a></li>
+                           <li><a href="page-gallery.html">Gallery</a></li>
+                           <li><a href="page-pricing.html">Pricing Tables</a></li>
+                           <li><a href="page-treeview.html">Tree View</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="email-template.html"><i class="fa fa-folder-open-o"></i>
+                        <span>Email Templates</span><span class="badge-warning ft-right">Hot</span></a>
+                     </li>
+                     <li class="menu-divider mg-y-20-force"></li>
+                     <li class="mg-20-force menu-others">Others</li>
+                     <li>
+                        <a href="../documentation/documentation.html"><i class="fa fa-cogs"></i>
+                        <span>Documentation</span></a>
+                     </li>
+                     <li>
+                        <a href="../documentation/changelog.html"><i class="fa fa-support"></i>
+                        <span>Changelog</span><span class="badge-danger ft-right">1.0</span></a>
+                     </li>
+                  </ul>
+               </div>
+               <!--================================-->
+               <!-- Sidebar Information Summary -->
+               <!--================================-->		
+               <div class="sidebar-info-summary mg-y-80">
+                  <p class="tx-uppercase tx-white pd-x-15">Information Summary</p>
+                  <div class="d-bock pd-x-15">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1op-8 tx-white mg-b-2 space-nowrap">Memory Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">32.3%</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">CPU Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">140.05</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Disk Usage</p>
+                        <h5 class="tx-white tx-normal mg-b-0">82.02%</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 35%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Daily Traffic</p>
+                        <h5 class="tx-white tx-normal mg-b-0">2,201</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 10%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-secondary" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <div class="d-block pd-x-15 mg-t-20">
+                     <div>
+                        <p class="tx-10 tx-uppercase tx-spacing-1 tx-white mg-b-2 space-nowrap">Monthly Traffic</p>
+                        <h5 class="tx-white tx-normal mg-b-0">63,584</h5>
+                     </div>
+                     <div class="progress progress-xs mb-2">
+                        <div class="progress-bar bg-teal" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--================================-->
+            <!-- Sidebar Footer Start -->
+            <!--================================-->
+            <div class="sidebar-footer">									
+               <a class="pull-left" href="page-profile.html" data-toggle="tooltip" data-placement="top" data-original-title="Profile">
+               <i class="icon-user"></i></a>									
+               <a class="pull-left " href="mailbox.html" data-toggle="tooltip" data-placement="top" data-original-title="Mailbox">
+               <i class="icon-envelope"></i></a>
+               <a class="pull-left" href="page-unlock.html" data-toggle="tooltip" data-placement="top" data-original-title="Lockscreen">
+               <i class="icon-lock"></i></a>
+               <a class="pull-left" href="page-singin.html" data-toggle="tooltip" data-placement="top" data-original-title="Sing Out">
+               <i class="icon-power"></i></a>
+            </div>
+            <!--/ Sidebar Footer End -->
+         </div>
+         <!--/ Page Sidebar Start -->
+         <!--================================-->
+         <!-- Page Content Start -->
+         <!--================================-->
+         <div class="page-content">
+            <!--================================-->
+            <!-- Page Header Start -->
+            <!--================================-->
+            <div class="page-header">
+               <div class="search-form">
+                  <form action="#" method="GET">
+                     <div class="input-group">
+                        <input class="form-control search-input" name="search" placeholder="Type something..." type="text"/>
+                        <span class="input-group-btn">
+                        <span id="close-search"><i class="ion-ios-close-empty"></i></span>
+                        </span>
+                     </div>
+                  </form>
+               </div>
+               <nav class="navbar navbar-default">
+                  <!--================================-->
+                  <!-- Brand and Logo Start -->
+                  <!--================================-->
+                  <div class="navbar-header">
+                     <div class="navbar-brand">
+                        <ul class="list-inline">
+                           <!-- Mobile Toggle and Logo -->
+                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="javascript:void(0)" id="sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
+                           <!-- PC Toggle and Logo -->
+                           <li class="list-inline-item"><a class="text-muted hidden-xs hidden-sm" href="javascript:void(0)" id="collapsed-sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
+                           <li class="list-inline-item mg-l-10"><a class="text-muted" href="javascript:void(0)" id="search-button"><i class="ion-ios-search-strong tx-20"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!--/ Brand and Logo End -->
+                  <!--================================-->
+                  <!-- Header Right Start -->
+                  <!--================================-->
+                  <div class="header-right pull-right">
+                     <ul class="list-inline justify-content-end">
+                        <!--================================-->
+                        <!-- Languages Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="assets/images/flags/usa.png" class="mg-b-5 wd-20 img-fluid" alt="">
+                           </a>
+                           <ul class="dropdown-menu languages-dropdown shadow-2">
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="en"><img src="assets/images/flags/usa.png" class="img-fluid wd-20" alt=""> <span>English-US</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="es"><img src="assets/images/flags/spanish.png" class="img-fluid wd-20" alt=""> <span>Spanish</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="fr"><img src="assets/images/flags/french.png" class="img-fluid wd-20" alt=""> <span>French</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="gr"><img src="assets/images/flags/germany.png" class="img-fluid wd-20" alt=""> <span>German</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="ru"><img src="assets/images/flags/russia.png" class="img-fluid wd-20" alt=""> <span>Russian</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)" data-lang="ru"><img src="assets/images/flags/united-kingdom.png" class="img-fluid wd-20" alt=""> <span>English-UK</span></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Languages Dropdown End -->
+                        <!--================================-->
+                        <!-- Notifications Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="ion-ios-bell-outline tx-20"></i>
+                           <span class="notification-count wave in"></span>
+                           </a>
+                           <ul class="dropdown-menu shadow-2">
+                              <li class="notification-header">
+                                 <span class="float-left">Notifications (7)</span>
+                                 <a href="javascript:void(0)" class="float-right">Mark all as read</a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-camera-outline pd-r-5 tx-teal"></i>
+                                 <span>Steve rated your photo</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-document pd-r-5 tx-purple"></i>
+                                 <span>New document available</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-android-favorite-outline pd-r-5 tx-warning"></i>
+                                 <span>John added you to fav</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-stopwatch-outline pd-r-5 tx-primary"></i>
+                                 <span>Meeting in 1 hour</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-document pd-r-5 tx-purple"></i>
+                                 <span>New document available</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-stopwatch-outline pd-r-5 tx-primary"></i>
+                                 <span>Meeting in 1 hour</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-box">
+                                 <a href="javascript:void(0)">
+                                 <i class="ion-ios-speedometer-outline pd-r-5 tx-success"></i>
+                                 <span>Server 5 overloaded</span>
+                                 <small class="pull-right text-muted">
+                                 <i class="icon-clock pd-r-5"></i>Just now 
+                                 </small>
+                                 </a>
+                              </li>
+                              <li class="notification-footer text-center">
+                                 <a href="javascript:void(0)">View All</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Notifications Dropdown End -->
+                        <!--================================-->
+                        <!-- Messages Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown hidden-xs hidden-sm">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="ion-ios-email-outline tx-20"></i>
+                           <span class="messages-count wave in"></span>
+                           </a>
+                           <ul class="dropdown-menu shadow-2">
+                              <li class="messages-header">
+                                 <span class="float-left">Messages (3)</span>
+                                 <a href="javascript:void(0)" class="float-right">Mark all as read</a>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar4.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar2.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-box">
+                                 <div class="row">
+                                    <div class="col-lg-3 col-sm-3 col-3 text-center">
+                                       <img src="assets/images/avatar/avatar6.png" class="mg-10 w-100 rounded-circle" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8 col-8">
+                                       <strong>David John</strong>
+                                       <div class="tx-12">
+                                          Lorem ipsum dolor sit ipsum dolor sit amet, consectetur
+                                       </div>
+                                       <small class="tx-gray-500">27.11.2015, 15:00</small>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="messages-footer text-center">
+                                 <a href="javascript:void(0)">View All</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!--/ Messages Dropdown End -->
+                        <!--================================-->
+                        <!-- Profile Dropdown Start -->
+                        <!--================================-->
+                        <li class="list-inline-item dropdown">
+                           <a class="text-muted" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="select-profile">Hi, John!</span>
+                           <img src="assets/images/avatar/avatar.png" class="mg-b-10 img-fluid wd-30" alt="">
+                           </a>
+                           <ul class="dropdown-menu profile-dropdown shadow-2">
+                              <li>
+                                 <a href="page-profile.html"><i class="icon-user"></i><span>My Profile</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-pencil"></i><span>Edit Profile</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-action-redo"></i><span>Activity Log</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-calendar"></i><span>My Calendar</span></a>
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-cloud-download"></i><span>My Download</span></a>
+                              </li>
+                              <li>
+                                 <hr class="hr-style">
+                              </li>
+                              <li>
+                                 <a href="javascript:void(0)"><i class="icon-settings"></i><span>Settings</span></a>
+                              </li>
+                              <li>
+                                 <a href="page-unlock.html"><i class="icon-lock"></i><span>Lockscreen</span></a>
+                              </li>
+                              <li>
+                                 <a href="page-singin.html"><i class="icon-logout"></i><span>Sing Out</span></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <!-- Profile Dropdown End -->
+                     </ul>
+                  </div>
+                  <!--/ Header Right End -->
+               </nav>
+            </div>
+            <!--/ Page Header End -->
+            <!--================================-->
+            <!-- Page Inner Start -->
+            <!--================================-->
+            <div class="page-inner">
+               <!--================================-->
+               <!-- Main Wrapper Start -->
+               <!--================================-->
+               <div id="main-wrapper">
+                  <!--================================-->
+                  <!-- Breadcrumb Start -->
+                  <!--================================-->
+                  <div class="pageheader pd-y-25">
+                     <div class="pd-t-5 pd-b-5">
+                        <h1 class="pd-0 mg-0 tx-20 text-overflow">Boxed Layout</h1>
+                     </div>
+                     <div class="breadcrumb pd-0 mg-0">
+                        <a class="breadcrumb-item" href="index.html"><i class="icon ion-ios-home-outline"></i> Home</a>
+                        <a class="breadcrumb-item" href="javascript:void(0)">Layouts</a>
+                        <span class="breadcrumb-item active">Boxed Layout</span>
+                     </div>
+                  </div>
+                  <!--/ Breadcrumb End -->
+                  <div class="row clearfix">
+                     <div class="col-12">
+                        <!--================================-->
+                        <!-- Dummy Text Start -->
+                        <!--================================-->
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse1" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse1">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse2" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse2">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse3" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse3">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse4" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse4">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse5" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse5">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <div class="card mb-4 shadow-1">
+                           <div class="card-header">
+                              <h4 class="card-header-title">
+                                 Dummy Text
+                              </h4>
+                              <div class="card-header-btn">
+                                 <a href="javascript:void(0)" data-toggle="collapse" class="btn btn-info" data-target="#collapse6" aria-expanded="true"><i class="ion-ios-arrow-down"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="refresh" class="btn btn-warning"><i class="ion-android-refresh"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="expand" class="btn btn-success"><i class="ion-android-expand"></i></a>
+                                 <a href="javascript:void(0)" data-toggle="remove" class="btn btn-danger"><i class="ion-ios-trash-outline"></i></a>
+                              </div>
+                           </div>
+                           <div class="collapse show" id="collapse6">
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <p class="pd-x-20 pd-y-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                        </div>
+                        <!--/ Dummy Text End -->
+                     </div>
+                  </div>
+               </div>
+               <!--/ Main Wrapper End -->
+            </div>
+            <!--/ Page Inner End -->
+            <!--================================-->
+            <!-- Page Footer Start -->	
+            <!--================================-->
+            <footer class="page-footer bg-gray-100">
+               <div class="pd-y-10 pd-x-25">
+                  <span class="tx-italic text-muted">Copyright&copy; 2019</span>
+               </div>
+            </footer>
+            <!-- Page Footer End -->	
+         </div>
+         <!-- /Page Content -->
+      </div>
+      <!-- /Page Container -->
+      <!--================================-->
+      <!-- Color switcher Start -->
+      <!--================================-->	
+      <div class="color-switcher hide-color-switcher">
+         <!--Color switcher Show/Hide button -->
+         <a class="switcher-button"><i class="fa fa-cog fa-spin"></i></a>
+         <!-- Color switcher title -->
+         <div class="color-switcher-title">
+            <span class="tx-16 text-center">Theme Switcher</span>
+         </div>
+         <!-- Colors style -->
+         <div class="color-list">
+            <a class="color turquoise-theme" title="turquoise"></a>
+            <a class="color emerald-theme" title="emerald"></a>
+            <a class="color peter-river-theme" title="peter-river"></a>
+            <a class="color amethyst-theme" title="amethyst"></a>
+            <a class="color wet-asphalt-theme" title="wet-asphalt"></a>
+            <a class="color green-sea-theme" title="green-sea"></a>
+            <a class="color nephritis-theme" title="nephritis"></a>
+            <a class="color belize-hole-theme" title="belize-hole"></a>
+            <a class="color wisteria-theme" title="wisteria"></a>
+            <a class="color midnight-blue-theme" title="midnight-blue"></a>
+            <a class="color sun-flower-theme" title="sun-flower"></a>
+            <a class="color carrot-theme" title="carrot"></a>
+            <a class="color alizarin-theme" title="alizarin"></a>
+            <a class="color concrete-theme" title="concrete"></a>
+            <a class="color orange-theme" title="orange"></a>
+            <a class="color pumpkin-theme" title="pumpkin"></a>
+            <a class="color bordeaux-theme" title="bordeaux"></a>
+            <a class="color dark-theme" title="dark"></a>
+         </div>
+      </div>
+      <!--/ Color switcher  End  -->
+      <!--================================-->
+      <!-- Scroll To Top Start-->
+      <!--================================-->	
+      <a href="#" data-click="scroll-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
+      <!--/ Scroll To Top End -->
+      <!--================================-->
+      <!-- Footer Script -->	
+      <!--================================-->
+      <script src="assets/plugins/jquery/jquery.min.js"></script>
+      <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
+      <script src="assets/plugins/popper/popper.js"></script>
+      <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/plugins/pace/pace.min.js"></script>
+      <script src="assets/js/jquery.slimscroll.min.js"></script>
+      <script src="assets/js/highlight.min.js"></script>
+      <script src="assets/js/adminify.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

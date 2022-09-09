@@ -1,0 +1,100 @@
+/*****************************************************************************
+  Skin Name: Skin Nephritis
+******************************************************************************/
+a.breadcrumb-item,
+.notification-header a,
+.notification-footer a,
+.messages-footer a,
+.messages-header a {
+	color: #27ae60!important;
+}
+
+.header-right .notification-count,
+.header-right .messages-count {
+	background: #ebf2f7!important;
+}
+
+.wave.in:after {
+	background: -webkit-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #ebf2f7 100%)!important;
+	background: -moz-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #ebf2f7 100%)!important;
+	background: -o-radial-gradient(center center, farthest-side circle, rgba(26, 175, 93, 0) 70%, #ebf2f7 100%)!important;
+	border: 1px solid #ebf2f7!important;
+}
+
+.navbar-header a,
+.header-right ul li a i.ion-ios-bell-outline,
+.header-right ul li a i.ion-ios-email-outline,
+.header-right ul li a span.select-profile {
+	color: #ffffff!important;
+}
+
+.page-header .navbar-default,
+.page-sidebar,
+.sidebar-footer a.pull-left:hover {
+	background: #27ae60!important;
+}
+
+.logo-box,
+.accordion-menu .sub-menu,
+.page-sidebar-menu ul li.menu-divider,
+.sidebar-footer {
+	background: #26a25b!important;
+}
+
+.page-sidebar-menu ul li a,
+.page-sidebar-menu ul li.menu-elements,
+.page-sidebar-menu ul li.menu-extras,
+.page-sidebar-menu ul li.menu-others {
+	color: #ebf2f7!important;
+}
+
+.page-sidebar-menu ul li.open,
+.page-sidebar-menu>ul>li>a:hover,
+.page-sidebar-menu ul li.active>a,
+.page-sidebar-collapsed .page-sidebar-menu>ul>li:hover>a {
+	background: #259455!important;
+}
+
+.page-sidebar-menu ul li ul li.active>a,
+.page-sidebar-menu ul li.active>a i.fa-angle-right {
+	background: #26a25b!important;
+	color: #0c1015!important;
+}
+
+.page-sidebar-menu ul li .sub-menu a:hover,
+.sidebar-footer a.pull-left:hover {
+	color: #0c1015!important;
+}
+
+.page-sidebar-menu ul li a i.accordion-icon,
+.sidebar-footer a.pull-left {
+	color: #ffffff!important;
+}
+
+.sub-menu li a:hover::before,
+ul.sub-menu li.active a::before {
+	background-color: #0c1015!important;
+}
+
+.page-sidebar-menu ul li a i:first-child{
+    font-size: 12px;
+    padding: 10px;
+    background: #26a25b;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.page-sidebar-collapsed .page-sidebar-menu>ul>li>a {
+    padding: 10px!important;
+}
+
+.page-sidebar-collapsed .page-sidebar-menu ul li a span{
+	margin-top: 8px!important;
+}
+
+.card .card-header,
+.color-switcher a.switcher-button,
+.btn-scroll-top {
+    background: #27ae60!important;
+    color: #eee!important;
+}
